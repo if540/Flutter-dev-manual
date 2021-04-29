@@ -10,5 +10,5 @@
 | MultiProvider                              | class    | 多個資料管理，初始化數據模型                                                    | Provider package |
 | ∟ ChangeNotifierProvider                   | class    | 單個資料管理，初始化數據模型                                                    | Provider package |
 |                                            |          |                                                                   |                  |
-| Provider.of                                | -        | 獲取及操作數據(like get one store module, you can getter or mutation...) | Provider package |
-| Consumer                                   | class    | 獲取及操作數據(like get one store module, you can getter or mutation...) | Provider package |
+| Provider.of                                | -        | 獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
+| Consumer                                   | class    | 獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
