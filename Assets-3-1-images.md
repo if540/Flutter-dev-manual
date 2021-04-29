@@ -32,6 +32,10 @@ flutter:
     - assets/images/icons/
 ```
 
+#### 使用
+```dart
+Image.asset('assets/images/icons/dimond.png')
+```
 
 學習資源:
 * [How to include images in your app](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
