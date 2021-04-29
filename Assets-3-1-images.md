@@ -34,7 +34,7 @@ flutter:
 
 #### 使用
 ```dart
-Image.asset('assets/images/icons/dimond.png')
+Image.asset('images/icons/dimond.png')
 ```
 
 學習資源:
