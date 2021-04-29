@@ -7,7 +7,5 @@
 |                          |          |                             |                  |
 | MultiProvider            | class    | 多個提供者                       | Provider package |
 | ∟ ChangeNotifierProvider | class    | 單個提供者(中繼站取得 ChangeNotifier) | Provider package |
-| Consumer                 | class    | 訂閱者(like on)                | Provider package |
 | Provider.of              | -        |                             | Provider package |
-
-
+| Consumer                 | class    | 訂閱者(like on)                | Provider package |
