@@ -9,3 +9,7 @@
   *  監測容器內容的滾動位置 
   *  controller 做為區域公共控制器，可使用在不同位置上
      *  常見分為: 操控者與被控者，例如: tabBar 與 view...
+
+
+學習資料:
+- [Flutter | 老孟 ListView](http://laomengit.com/guide/widgets/ListView.html)
