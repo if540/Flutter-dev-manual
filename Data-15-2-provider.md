@@ -6,8 +6,9 @@
 |--------------------------------------------|----------|-------------------------------------------------------------------|------------------|
 | ChangeNotifier                             | class    | 監聽器功能類(like eventEmitter)                                         | Flutter build-in |
 | ∟ notifyListeners                          | function | 通知方法(like emit)                                                   | Flutter build-in |
-|                                            |          |                                                                   |                  |
 | class YourDataModel with ChangeNotifier {} | class    | 定義資料 model                                                        | 自訂               |
+
+<sub><sup>Data model gen https://app.quicktype.io/</sup></sub>
 
 
 ### 數據資料管理頂層
