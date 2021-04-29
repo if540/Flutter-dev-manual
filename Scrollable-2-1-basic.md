@@ -4,6 +4,8 @@
 
 ### 基礎構造組成
 
+* default build from child or children
+* another build from builder
 * 可視範圍即容器
 * 滾動行為的控制器 (scroll controller)
   *  `操控`與`監測` 滾動位置
