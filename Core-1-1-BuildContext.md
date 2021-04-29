@@ -12,3 +12,4 @@
 學習資源:
 - [BuildContext In-Depth Explanation(youtube)](https://www.youtube.com/watch?v=iNgwFMm3opE)
 - [Flutter | 深入理解BuildContext - Flutter如何構建視圖](https://juejin.cn/post/6844903777565147150#heading-3)
+- [Flutter核心原理 Element與BuildContext](https://book.flutterchina.club/chapter14/element_buildcontext.html#_14-2-2-buildcontext)
