@@ -15,7 +15,7 @@
 #### 詞彙索引:
 | keyword | 用途                                   | 常見                                   |
 |---------|--------------------------------------|--------------------------------------|
-| builder | wiget 自訂內容格式, 具有延遲載入的作用，也被做用在大量數據產生。 | ListView.builder、GridView.builder... |
+| builder | wiget 自訂內容格式, 具有延遲載入的作用，也被做用在大量數據產生。 | ListView.builder、GridView.builder, itemBuilder... |
 
 
 
