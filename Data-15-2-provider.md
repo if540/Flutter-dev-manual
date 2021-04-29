@@ -21,7 +21,7 @@
 
 ### 獲取及操作數據
 
-#### 必需在 `MultiProvider` or `ChangeNotifierProvider` 下，才能使用 Provider.of 及 Consumer
+必需在 `MultiProvider` or `ChangeNotifierProvider` 下，才能使用 Provider.of 及 Consumer
 
 | 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
 |--------------------------------------------|----------|-------------------------------------------------------------------|------------------|
