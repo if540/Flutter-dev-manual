@@ -11,6 +11,14 @@
   *  controller 做為區域公共控制器，可使用在不同位置上
      *  常見分為: 操控者與被控者，例如: tabBar 與 view...
 
+#### 常見 View Widget
+| widget                 | 用途                |
+|-----------------------|-------------------|
+| ListView              | 列表數據              |
+| GridView              | 格線列表數據            |
+| SingleChildScrollView | 單一組件使用            |
+| PageView              | 輪播組件 支援(橫向、縱向) 滾動 |
+
 
 #### 詞彙索引:
 | keyword | 用途                                   | 常見                                   |
