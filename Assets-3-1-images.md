@@ -35,3 +35,4 @@ flutter:
 
 學習資源:
 * [How to include images in your app](https://stackoverflow.com/questions/50903106/how-to-add-image-in-flutter)
+* [Adding assets and images](https://flutter.dev/docs/development/ui/assets-and-images)
