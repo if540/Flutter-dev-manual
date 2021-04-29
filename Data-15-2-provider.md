@@ -1,9 +1,13 @@
 # Data-15-2-provider
 
-| 項目名                    | 類型       | 功能描述                           | 供應者              |
-|------------------------|----------|--------------------------------|------------------|
-| ChangeNotifier         | class    | 狀態變更監聽器                        | Flutter build-in    |
-| ∟ notifyListeners      | function | 通知訂閱者: ChangeNotifier 類的方法 | Flutter build-in    |
-|                        |          |                                |                  |
-| ChangeNotifierProvider | class    | 狀態變更監聽供應商                      | Provider package |
-| Consumer               | class    | 消費者/訂閱者                        | Provider package |
+| 項目名                      | 類型       | 功能描述                        | 供應者              |
+|--------------------------|----------|-----------------------------|------------------|
+| ChangeNotifier           | class    | 監聽器功能類(like eventEmitter)   | Flutter build-in |
+| ∟ notifyListeners        | function | 通知方法(like emit)             | Flutter build-in |
+|                          |          |                             |                  |
+| MultiProvider            | class    | 多個提供者                       | Provider package |
+| ∟ ChangeNotifierProvider | class    | 單個提供者(中繼站取得 ChangeNotifier) | Provider package |
+| Consumer                 | class    | 訂閱者(like on)                | Provider package |
+| Provider.of              | -        |                             | Provider package |
+
+
