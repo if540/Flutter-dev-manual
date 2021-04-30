@@ -32,7 +32,7 @@
 
 錯誤排除:
 
-- [Porvider 和 setState() 錯誤](http://www.telihai.com/archives/9274/)
+- [Porvider 和 setState() 錯誤](http://www.telihai.com/archives/9274/), [setState() or markNeedsBuild called during build](https://stackoverflow.com/questions/47592301/setstate-or-markneedsbuild-called-during-build)
  ```
   flutter: Another exception was thrown: setState() or markNeedsBuild() called during build.
   ```
