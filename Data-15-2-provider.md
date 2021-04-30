@@ -31,4 +31,5 @@
 
 
 學習資源:
+- [Flutter 全域性狀態管理之 Provider 初探](https://iter01.com/442670.html)
 - [Reactjs context](https://zh-hans.reactjs.org/docs/context.html)
