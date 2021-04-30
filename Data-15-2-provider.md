@@ -6,7 +6,9 @@
 |--------------------------|-------|------------------------------------------------------------|------------------|
 | MultiProvider            | class | 多個資料管理，初始化數據模型                                             | Provider package |
 | ⊢ ChangeNotifierProvider | class | 單個資料管理，初始化數據模型<br />為 ChangeNotifier 提供的 ListenableProvider 規範 | Provider package |
-| ∟ ...                    |       |                                                            |                  |
+| ∟ ...                    |       | FutureProvider, StreamProvider ...   |                  |
+
+<sub><sup>[現有的 providers https://github.com/rrousselGit/provider](https://github.com/rrousselGit/provider/blob/master/resources/translations/zh-CN/README.md#%E7%8E%B0%E6%9C%89%E7%9A%84providers)</sup></sub>
 
 
 ### 獲取及操作數據
