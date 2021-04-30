@@ -16,8 +16,8 @@
 
 | 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
 |--------------------------------------------|----------|-------------------------------------------------------------------|------------------|
-| Provider.of                                | -        | 獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
-| Consumer                                   | class    | 獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
+| Provider.of                                | static function  | 鏈式，獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
+| Consumer                                   | class    | 函式，獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
 
 ### 數據模型
 
