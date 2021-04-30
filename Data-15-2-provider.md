@@ -28,3 +28,7 @@
 | class YourDataModel with ChangeNotifier {} | class    | 定義資料 model                                                        | 自訂               |
 
 <sub><sup>Data model gen https://app.quicktype.io/</sup></sub>
+
+
+學習資源:
+- [Reactjs context](https://zh-hans.reactjs.org/docs/context.html)
