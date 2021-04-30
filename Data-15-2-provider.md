@@ -43,3 +43,4 @@
 - [Reactjs context](https://zh-hans.reactjs.org/docs/context.html)
 - [Provider 之各種 XXProvider 的使用姿勢](https://juejin.cn/post/6844903903432032263)
 - [Flutter Provider 之 FutureProvider 與 StreamProvider](https://iter01.com/449917.html)
+- [flutter狀態管理](https://ailru.com/flutter/2019/07/22/flutter%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86/)
