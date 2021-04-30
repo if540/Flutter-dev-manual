@@ -30,6 +30,13 @@
 <sub><sup>Data model gen https://app.quicktype.io/</sup></sub>
 
 
+錯誤排除:
+
+- [Porvider 和 setState() 錯誤](http://www.telihai.com/archives/9274/)
+ ```
+  flutter: Another exception was thrown: setState() or markNeedsBuild() called during build.
+  ```
+
 學習資源:
 - [Flutter 全域性狀態管理之 Provider 初探](https://iter01.com/442670.html)
 - [Reactjs context](https://zh-hans.reactjs.org/docs/context.html)
