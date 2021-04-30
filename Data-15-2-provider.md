@@ -38,6 +38,7 @@
   ```
 
 學習資源:
+- [Provider Package](https://github.com/rrousselGit/provider/blob/master/resources/translations/zh-CN/README.md)
 - [Flutter 全域性狀態管理之 Provider 初探](https://iter01.com/442670.html)
 - [Reactjs context](https://zh-hans.reactjs.org/docs/context.html)
 - [Provider 之各種 XXProvider 的使用姿勢](https://juejin.cn/post/6844903903432032263)
