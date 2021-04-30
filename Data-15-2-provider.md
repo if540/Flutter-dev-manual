@@ -23,6 +23,8 @@
 
 必需在 `MultiProvider` 或 `ChangeNotifierProvider` 下，才能使用 Provider.of 及 Consumer
 
+換句話說 Provider.of 或 Consumer 會向上尋找最近的 Proider 管理類
+
 | 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
 |--------------------------------------------|----------|-------------------------------------------------------------------|------------------|
 | Provider.of                                | -        | 獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
