@@ -20,6 +20,7 @@
 | GridView              | 二維列表數據            |
 | SingleChildScrollView | 單一組件使用            |
 | PageView              | 輪播組件 支援(橫向、縱向) 滾動 |
+| CustomScrollView      | 是可以使用 Sliver 來自定義滾動模型（效果）的組件，子組件必須都是 Sliver |
 
 
 #### 詞彙索引:
