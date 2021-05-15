@@ -34,8 +34,15 @@ Container(
 
 ### transform
 ```dart
+// translation
 Container(
-  transform: Matrix4.translationValues(30, 30, 0),
+  transform: Matrix4.translationValues(30, 30, 0), // x, y, z
+)
+```
+```dart
+import 'package:vector_math/vector_math_64.dart' as vector;
+Container(
+  transform: Matrix4.translation(vector.Vector3(0,0 ,0)),
 )
 ```
 
