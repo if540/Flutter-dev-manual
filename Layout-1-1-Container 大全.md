@@ -34,7 +34,7 @@ Container(
 
 ### transformAlignment
 ```dart
-// 原點
+// 原點對齊
 transformAlignment: AlignmentGeometry.lerp(Alignment.center, Alignment.center, 0.0),
 ```
 
