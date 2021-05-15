@@ -78,8 +78,9 @@ Container(
 RotatedBox
 與 Transform 不同的是， RotateBox widget 會改變節點實際位置，也會影響到上下節點的位置
 
-用 css 描述 Transform widget 就是 css 的 transfrom 會佔位，形變時不會影響前後元素位置，因為如此形變時無需連同前後元素重排性能較高
-反觀 RotateBox 就像設定 margin 及 padding 會影響前後的排版位置，因此渲染消耗性能也較多。
+用 css 描述 Transform widget 就像是 css 的 transfrom 會佔位，形變時不會影響前後元素位置，因此只需重渲自身定位，性能較高。
+
+反觀 RotateBox 就像設定 margin 及 padding 一樣是相對定位，會影響前後的排版位置關係，因此渲染消耗性能就會較多。
 
 ```dart
 Container(
