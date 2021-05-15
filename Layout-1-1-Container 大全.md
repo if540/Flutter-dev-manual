@@ -45,6 +45,12 @@ Container(
   transform: Matrix4.translation(vector.Vector3(30, 30, 0)),
 )
 ```
+```dart
+Container(
+  transform: Matrix4.compose(translation, rotation, scale),
+)
+```
+[更多 vector 操作](https://api.flutter.dev/flutter/vector_math/vector_math-library.html)
 
 參考學習文章:
 - [days[21] = "Layout是怎麼運作的？"](https://ithelp.ithome.com.tw/articles/10242088)
