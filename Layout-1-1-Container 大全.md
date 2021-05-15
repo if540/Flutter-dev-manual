@@ -1,7 +1,7 @@
 # Layout-1-1-Container 大全
 
 Layout機制的核心規則: 
-> Parent向下傳遞constraints，child向上傳遞size，由Parent決定child position
+> Parent 向下傳遞 constraints，child 向上傳遞 size，由 Parent 決定 child position
 
 ## Container Widget
 
