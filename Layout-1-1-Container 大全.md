@@ -42,7 +42,7 @@ Container(
 ```dart
 import 'package:vector_math/vector_math_64.dart' as vector;
 Container(
-  transform: Matrix4.translation(vector.Vector3(0,0 ,0)),
+  transform: Matrix4.translation(vector.Vector3(30, 30, 0)),
 )
 ```
 
