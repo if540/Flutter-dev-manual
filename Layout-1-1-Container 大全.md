@@ -23,6 +23,13 @@ Align(
   )
 )
 ```
+### alignment
+Align the [child] within the container.
+```dart
+Container(
+  alignment: Alignment.center, // child 垂直水平置中
+)
+```
 
 ### margin, padding
 ```dart
