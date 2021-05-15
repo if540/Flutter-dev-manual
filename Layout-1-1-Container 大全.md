@@ -69,7 +69,29 @@ Container(
   ),
 )
 ```
+也可以再包一層 Transform widget 實現各項形變
+```dart
+Container(
+  child: Transform.scale(2),
+)
+```
+RotatedBox
+與 Transform 不同的是， RotateBox widget 會改變節點實際位置，也會影響到上下節點的位置
+
+用 css 描述 Transform widget 就是 css 的 transfrom 會佔位，形變時不會影響前後元素位置，因為如此形變時無需連同前後元素重排性能較高
+反觀 RotateBox 就像設定 margin 及 padding 會影響前後的排版位置，因此渲染消耗性能也較多。
+
+```dart
+Container(
+  child: RotatedBox(
+    quarterTurns: 1, //旋轉90度(1/4圈)
+    child: Text('123'),
+  ),
+)
+```
 [更多 vector 操作](https://api.flutter.dev/flutter/vector_math/vector_math-library.html)
+
+[變換（Transform）](https://book.flutterchina.club/chapter5/transform.html#_5-4-%E5%8F%98%E6%8D%A2-transform)
 
 參考學習文章:
 - [days[21] = "Layout是怎麼運作的？"](https://ithelp.ithome.com.tw/articles/10242088)
