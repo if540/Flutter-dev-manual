@@ -12,10 +12,32 @@ Layout機制的核心規則:
                                 
 ## Container Widget
 
-### 大小
+### size
 
-1. 在沒有 `child` 而且沒有給`大小`的狀況下，會依上層 `constraints` 限制，有多大就多大。
-    - 也就是說預設情況下，是會填滿父級最大最小的寬高約束。                    
+在沒有 `child` 而且沒有給`大小`的狀況下，會依上層 `constraints` 限制，有多大就多大。
+```dart
+// 也就是說預設情況下，是會填滿父級最大最小的寬高約束。
+Align(
+  Container(
+    color: Colors.red,
+  )
+)
+```
+
+### margin, padding
+```dart
+Container(
+  margin: EdgeInsets.all(10),
+  padding: EdgeInsets.all(10),
+)
+```
+
+### transform
+```dart
+Container(
+  transform: Matrix4.translationValues(30, 30, 0),
+)
+```
 
 參考學習文章:
 - [days[21] = "Layout是怎麼運作的？"](https://ithelp.ithome.com.tw/articles/10242088)
