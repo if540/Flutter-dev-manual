@@ -76,7 +76,7 @@ Container(
 )
 ```
 RotatedBox
-與 Transform 不同的是， RotateBox widget 會改變節點實際位置，也會影響到上下節點的位置
+與 Transform 不同的是， RotateBox widget 會改變節點實際位置，也會影響到上下節點的位置 `作用於layout階段`
 
 用 css 描述 Transform widget 就像是 css 的 transfrom 會佔位，形變時不會影響前後元素位置，因此只需重渲自身定位，性能較高。
 
