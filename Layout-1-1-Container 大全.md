@@ -17,3 +17,5 @@ Layout機制的核心規則:
 
 參考學習文章:
 - [days[21] = "Layout是怎麼運作的？"](https://ithelp.ithome.com.tw/articles/10242088)
+- [What is difference between Element and RenderObject in Flutter?
+](https://stackoverflow.com/questions/64073264/what-is-difference-between-element-and-renderobject-in-flutter)
