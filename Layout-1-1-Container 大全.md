@@ -32,6 +32,12 @@ Container(
 )
 ```
 
+### transformAlignment
+```dart
+// 原點
+transformAlignment: AlignmentGeometry.lerp(Alignment.center, Alignment.center, 0.0),
+```
+
 ### transform
 ```dart
 // translationValues
