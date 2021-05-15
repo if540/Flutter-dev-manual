@@ -47,7 +47,11 @@ Container(
 ```
 ```dart
 Container(
-  transform: Matrix4.compose(translation, rotation, scale),
+  transform: Matrix4.compose(
+    vector.Vector3(30, 30, 0),
+    vector.Quaternion.euler(0.0, 0.0, 45.0),
+    vector.Vector3(1,1,0)
+  ), // translation, rotation, scale
 )
 ```
 [更多 vector 操作](https://api.flutter.dev/flutter/vector_math/vector_math-library.html)
