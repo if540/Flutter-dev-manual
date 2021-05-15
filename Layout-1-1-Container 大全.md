@@ -9,8 +9,6 @@ Layout機制的核心規則:
 |------------------------|-------------------------------------|---------------------------------------------------------|
 | size / 尺寸              | renderObject > size | Flutter 裡用來代表所有具空間尺寸的寬高。                                |
 | container / 容器         |                                     | Flutter 裡不好純粹的稱為 box 因為還具有上下約束的關係，所以稱 container 可能更為合適。 |
-| child slot / 子插槽       |                                     | Flutter 裡提供渲染用 element 的插槽。                             |
-| container's color / 底色 | bg                                  |                                                         |
 
 ## Container Widget
 
