@@ -8,8 +8,10 @@
 
 ### Expanded
 
+與 Spacer 的差別就是有 child 接口
+
 ### Spacer
 
-> Spacer 事實上就是 `Expanded` 的封裝類
+> Spacer 事實上就是 `Expanded` 的封裝類，不開放接口 child
 
-預設 `flex 1` 空佔位 wiget, 自動填滿主軸向空白空間，沒有
+預設 `flex 1` 空佔位 wiget, 自動填滿主軸向空白空間
