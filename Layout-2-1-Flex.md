@@ -2,13 +2,13 @@
 
 ## 彈性佈局 Flex
 
-### Flex、Row、Column 本是同根生
+### Flex container like Row、Column 本是同根生
 
 > 如果知道 axis 方向，使用 Row 或 Column 會方便一些，因為 Row 和 Column 都繼承自 Flex
 
 ### Expanded
 
-與 Spacer 的差別就是有 child 接口
+與 child 接口
 
 ### Spacer
 
