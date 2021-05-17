@@ -42,6 +42,8 @@ Widget build(BuildContext context) {
 
 <sub><sup>Flutter 的狀態管理 Provider (三) https://ithelp.ithome.com.tw/articles/10251221</sup></sub>
 
+<sub><sup>Flutter 狀態管理 Provider(四) Selector 使用 https://juejin.cn/post/6844904145774870536</sup></sub>
+
 ### 數據模型
 
 | 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
