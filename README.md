@@ -5,3 +5,5 @@ Flutter 開發手冊
 
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
+- [GlobalKey](https://juejin.cn/post/6844903811870359559)
+- [Flutter Fully Responsive Design UI - Mobile, Tablet and Web(youtube)](https://www.youtube.com/watch?v=0mp-Ok00WZE)
