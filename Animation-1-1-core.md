@@ -2,7 +2,7 @@
 
 ### Ticker
 
-vsync 對象會綁定動畫的定時器到一個可視的 widget，所以當 widget 不顯示時，動畫定時器將會暫停，當 widget 再次顯示時，動畫定時器重新恢復執行，這樣就可以避免動畫相關 UI 不在當前屏幕時消耗資源。如果要使用自定義的 Stat 對象作為 vsync 時，請包含 TickerProviderStateMixin。
+vsync 對象會綁定動畫的定時器到一個可視的 widget，所以當 widget 不顯示時，動畫定時器將會暫停，當 widget 再次顯示時，動畫定時器重新恢復執行，這樣就`可以避免動畫相關 UI 不在當前屏幕時消耗資源`。如果要使用自定義的 Stat 對象作為 vsync 時，請包含 TickerProviderStateMixin。
 
 
 | API                            | 說明                                                                |
