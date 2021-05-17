@@ -28,8 +28,8 @@
 
 | 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
 |--------------------------------------------|----------|-------------------------------------------------------------------|------------------|
-| select                                   | Function    | 相當於 Consumer，可以在特定值改變時，再去重新構建 widget | Provider package |
-| Selector                                   | Class    | select 類用法  | Provider package |
+| select                                   | Function    | `可指定值監聽`，相當於 Consumer，可以在特定值改變時，再去重新構建 widget | Provider package |
+| Selector                                   | Class    | `可指定值監聽`，select 類用法  | Provider package |
 
 ```dart
 @override
@@ -39,6 +39,8 @@ Widget build(BuildContext context) {
   // Selector(builder: (BuildContext context, value, Widget child) {  });
 }
 ```
+
+<sub><sup>Flutter 的狀態管理 Provider (三) https://ithelp.ithome.com.tw/articles/10251221</sup></sub>
 
 ### 數據模型
 
