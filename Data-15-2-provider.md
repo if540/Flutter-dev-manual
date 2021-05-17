@@ -1,5 +1,7 @@
 # Data-15-2-provider
 
+> InheritedWidget 組件的上層封裝， 使其更易用， 更易復用。Provider，通過委派 Create 和 Dispose 來管理其暴露值的生命週期。
+
 ### 數據資料管理頂層
 
 | 項目名                      | 類型    | 功能描述                                                       | 供應者              |
