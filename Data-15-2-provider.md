@@ -24,6 +24,22 @@
 | Provider.of                                | static function  | 鏈式，獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
 | Consumer                                   | class    | 函式，獲取及操作數據<br/>(like store module, getter,mutation...) | Provider package |
 
+### 數據監聽優化使用
+
+| 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
+|--------------------------------------------|----------|-------------------------------------------------------------------|------------------|
+| select                                   | Function    | 相當於 Consumer，可以在特定值改變時，再去重新構建 widget | Provider package |
+| Selector                                   | Class    | select 類用法  | Provider package |
+
+```dart
+@override
+Widget build(BuildContext context) {
+  final name = context.select((value) => value.name);
+  // 類用法
+  // Selector(builder: (BuildContext context, value, Widget child) {  });
+}
+```
+
 ### 數據模型
 
 | 項目名                                        | 類型       | 功能描述                                                              | 供應者              |
