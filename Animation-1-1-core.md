@@ -13,3 +13,9 @@ vsync 對象會綁定動畫的定時器到一個可視的 widget，所以當 wid
 | TickerProvider                 | An interface implemented by classes that can vend Ticker objects. |
 | TickerProviderStateMixin       | 多支 ticker 需求                                                      |
 | SingleTickerProviderStateMixin | 如果狀態裡只有一個 ticker 需求，建議使用 SingleTickerProviderStateMixin 一般來說會更高效  |
+
+常見用到 Ticker 場景:
+
+- scroll
+- animation
+- ...
