@@ -225,3 +225,8 @@ class PngImagePainter extends CustomPainter {
   }
 }
 ```
+
+學習資源
+
+- [How to crop circular(or Square or Hexagon ) area from canvas in Flutter](https://stackoverflow.com/questions/59434412/how-to-crop-circularor-square-or-hexagon-area-from-canvas-in-flutter)
+- [flutter image drawing in canvas](https://gist.github.com/netsmertia/9c588f23391c781fa1eb791f0dce0768)
