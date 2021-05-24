@@ -19,7 +19,7 @@
 
 待解決
 
-- clip iOS for web 高度計算錯誤(官方處理中)
+- clip iOS for web 高度計算錯誤(官方處理中 [#82516](https://github.com/flutter/flutter/issues/82516))
   - [flutter-image-blend](https://github.com/ryoheinagao/flutter-image-blend/blob/master/lib/main.dart) shaderMask web 不支援
   - [Flutter-ShapeOfView](https://github.com/florent37/Flutter-ShapeOfView) 只有 Circle shape 沒問題
   - canvas.drawImage 一樣得用 clip 所以
