@@ -15,3 +15,11 @@
 - No MediaQuery widget ancestor found.
 
   The Scaffold is designed to be a top level `container for a MaterialApp.`
+
+
+待解決
+
+- clip iOS for web 高度計算錯誤(官方處理中)
+  - [flutter-image-blend](https://github.com/ryoheinagao/flutter-image-blend/blob/master/lib/main.dart) shaderMask web 不支援
+  - [Flutter-ShapeOfView](https://github.com/florent37/Flutter-ShapeOfView) 只有 Circle shape 沒問題
+  - canvas.drawImage 一樣得用 clip 所以
