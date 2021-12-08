@@ -2,6 +2,9 @@
 
 故障排除
 
+- Android 模擬器無法開啟
+  - [Android Studio Emulator: cannot add library vulkan-1.dll: failed](https://stackoverflow.com/questions/65696048/android-studio-emulator-cannot-add-library-vulkan-1-dll-failed)
+  - 清理 c: 空間，或選擇需要空間較小的模擬版本
 - RangeError (index): Index out of range: no indices are valid: 0
   - got empty list 當你有取 list[index] 時，你的 list 不得為空
   - [stackoverflow answer](https://stackoverflow.com/questions/61027296/rangeerror-index-index-out-of-range-no-indices-are-valid-0)
