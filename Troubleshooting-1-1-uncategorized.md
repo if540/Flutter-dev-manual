@@ -2,6 +2,11 @@
 
 故障排除
 
+- 抓不到 Android Studio XXX 三部曲
+  - flutter config --android-sdk D:/AndroidSDK
+  - flutter config --android-studio-dir C:/Program Files/Android/Android Studio
+  - flutter doctor --android-licenses
+  - [android-studio android-studio-dir location](https://stackoverflow.com/questions/66170639/android-studio-android-studio-dir-location)、[Install Android Studio](https://docs.flutter.dev/get-started/install/windows#install-android-studio)
 - Android 模擬器無法開啟
   - [Android Studio Emulator: cannot add library vulkan-1.dll: failed](https://stackoverflow.com/questions/65696048/android-studio-emulator-cannot-add-library-vulkan-1-dll-failed)
   - 清理 c: 空間，或選擇需要空間較小的模擬版本
