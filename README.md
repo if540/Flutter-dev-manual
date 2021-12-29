@@ -12,3 +12,4 @@ Flutter 開發手冊
 - [源碼篇：Flutter Provider的另一面（萬字圖文+插件）](https://juejin.cn/post/6968272002515894303)
 - [Implementing complex UI with Flutter](https://www.youtube.com/watch?v=FCyoHclCqc8)
 - [Keep it Simple, State: Architecture for Flutter Apps](https://www.youtube.com/watch?v=zKXz3pUkw9A)
+- [Building games using Flame](https://www.youtube.com/watch?v=sFpjEH-ok2s)
