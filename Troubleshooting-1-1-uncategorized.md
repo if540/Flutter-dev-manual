@@ -2,6 +2,10 @@
 
 故障排除
 
+- 型別錯誤
+  - (json to dart 線上工具)[https://javiercbk.github.io/json_to_dart/] 
+  - _InternalLinkedHashMap<String, dynamic> 從 http 返回資料型態，需轉換為指定資料類型 
+
 - 抓不到 Android Studio XXX 三部曲
   - flutter config --android-sdk D:/AndroidSDK
   - flutter config --android-studio-dir C:/Program Files/Android/Android Studio
