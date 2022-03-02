@@ -3,8 +3,9 @@
 故障排除
 
 - 型別錯誤
-  - (json to dart 線上工具)[https://javiercbk.github.io/json_to_dart/] 
-  - _InternalLinkedHashMap<String, dynamic> 從 http 返回資料型態，需轉換為指定資料類型 
+  - [json to dart 線上工具](https://javiercbk.github.io/json_to_dart/)
+  - _InternalLinkedHashMap<String, dynamic> 從 http 返回資料型態，需轉換為指定資料類型
+  - flutter 打包為 apk 時報錯  `flutter build apk  --release -vv`, 就會輸出更詳細的錯誤訊息
 
 - 抓不到 Android Studio XXX 三部曲
   - flutter config --android-sdk D:/AndroidSDK
