@@ -3,6 +3,10 @@ Flutter 開發手冊
 
 寫好型別，除了規範數據類型，還能讓 IDE 智能提示更佳友好。
 
+## 開發隨筆
+
+- 清空歷史並執行新的導向 `Navigator.of(ctx).popUntil(ModalRoute.withName('/login'));` like js `replace`
+
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
 - [GlobalKey](https://juejin.cn/post/6844903811870359559)
