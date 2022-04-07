@@ -6,6 +6,7 @@ Flutter 開發手冊
 ## 開發隨筆
 
 - 清空歷史並執行新的導向 `Navigator.of(ctx).popUntil(ModalRoute.withName('/login'));` like js `replace`
+  - [Flutter中清空棧的方式](https://blog.csdn.net/Mr_Tony/article/details/112184802)
 
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
