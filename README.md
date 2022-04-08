@@ -9,6 +9,7 @@ Flutter 開發手冊
   - [Flutter中清空棧的方式](https://blog.csdn.net/Mr_Tony/article/details/112184802)
   - [Flutter中管理路由棧的方法和應用](https://zhuanlan.zhihu.com/p/56289929)
 - [glass blur](https://stackoverflow.com/questions/43550853/how-do-i-do-the-frosted-glass-effect-in-flutter)
+  - clip rect 帶圓角 `ClipRRect borderRadius: BorderRadius.circular(8.0)`
 
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
