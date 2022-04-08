@@ -10,6 +10,9 @@ Flutter 開發手冊
   - [Flutter中管理路由棧的方法和應用](https://zhuanlan.zhihu.com/p/56289929)
 - [glass blur](https://stackoverflow.com/questions/43550853/how-do-i-do-the-frosted-glass-effect-in-flutter)
   - clip rect 帶圓角 `ClipRRect borderRadius: BorderRadius.circular(8.0)`
+- PWA 現階段相容跟適用場景還存在一些問題，其次是使用習慣尚未發生巨大生態改變
+  - 主動詢問是否安裝，相容低 [BeforeInstallPromptEvent](https://developer.mozilla.org/zh-CN/docs/Web/API/BeforeInstallPromptEvent)
+  - [Progressive Web App 自主管理推薦安裝提示 (3)](https://ithelp.ithome.com.tw/m/articles/10263950)
 
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
