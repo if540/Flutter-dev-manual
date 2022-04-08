@@ -13,6 +13,7 @@ Flutter 開發手冊
 - PWA 現階段相容跟適用場景還存在一些問題，其次是使用習慣尚未發生巨大生態改變
   - 主動詢問是否安裝，相容低 [BeforeInstallPromptEvent](https://developer.mozilla.org/zh-CN/docs/Web/API/BeforeInstallPromptEvent)
   - [Progressive Web App 自主管理推薦安裝提示 (3)](https://ithelp.ithome.com.tw/m/articles/10263950)
+  - flutter run -d 開發執行下不支
 
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
