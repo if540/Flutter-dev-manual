@@ -15,6 +15,12 @@ Flutter 開發手冊
   - [Progressive Web App 自主管理推薦安裝提示 (3)](https://ithelp.ithome.com.tw/m/articles/10263950)
   - flutter run -d 開發執行下不支援 
 
+### 安裝相關
+
+- [更改 AVD 位置的方法了](https://youtu.be/LXCqx-dopxE?t=174)
+- [API 29 wifi 用這方法可解法](https://medium.com/@daydreamer_/how-to-fix-android-emulator-wi-fi-connected-with-no-internet-c62fd4ed652d)
+
+
 學習資源:
 - [組件化和平台化](https://www.kancloud.cn/alex_wsc/flutter_demo/1572034)
 - [GlobalKey](https://juejin.cn/post/6844903811870359559)
